@@ -1,0 +1,22 @@
+
+
+{% load static %}
+
+<div class='border-right border-warning h-100'>
+
+    <div class='text-center'>
+
+        <img src="{% static "core/images/WhatsApp Image 2023-09-06 at 19.21.24.jpg" %}" alt="picture" class='img-fluid rounded-circle mt-5' width='100px' height='100px'>
+        <h3 class='mt-3 text-white st-font'>Nitin sharma</h3>
+    </div>
+
+    <hr class='border-light'>
+    
+    <nav class='nav flex-column text-center'>
+        <a href="{% url "home" %}" class="nav-link {{home}}">Home</a>
+        <a href="{% url "services" %}" class="nav-link {{services}}">Services</a>
+        <a href="{% url "edu" %}" class="nav-link {{skill}}">Skills</a>
+        <a href="{% url "contact" %}" class="nav-link {{contact}}">Contact</a>
+    </nav>
+
+</div>

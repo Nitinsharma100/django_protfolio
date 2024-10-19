@@ -1,0 +1,28 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class='mt-5 '>
+    
+        <div class='text-center'>
+            <img src="{% static "core/images/WhatsApp Image 2023-09-06 at 19.21.24.jpg" %}" alt="pick" class='img-thumbnail' width='250px' height='150px'>
+        </div>
+
+        <div class='text-white mt-5 mx-5 text-justify'>
+            <h1 class='font-weight-bold st-font'>Hello,</h1>
+
+
+            <div class='px-4 ' style='line-height:2rem;'>
+                <p style='text-indent:100px'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo doloribus, vero esse modi nostrum temporibus repellat exercitationem amet eum deleniti sit eius suscipit hic ea earum quibusdam reprehenderit reiciendis tenetur repellendus corrupti consequatur aperiam dolor a. Nulla dolorem molestias provident mollitia, culpa id debitis praesentium alias obcaecati, nisi nam voluptas deserunt natus cupiditate enim! Nam beatae molestiae qui sed incidunt sequi tenetur? Dolorem tempora quasi aperiam non a at, ducimus possimus aspernatur quae ipsum repellat fugit corrupti tempore architecto nam iste ea vitae facilis nesciunt officia atque eligendi porro? Recusandae iusto aliquam maxime itaque iure ratione magni odio minima quasi?</p>
+            </div>
+        </div>
+
+        <div class='text-center'> 
+            <a href="{% url "contact" %}" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+        <a href="{% url "contact" %}" class="btn btn-outline-info my-3">Contact</a>
+        </div>
+    
+</div>
+
+
+{% endblock content %}
